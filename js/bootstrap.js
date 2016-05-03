@@ -1,3 +1,19 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @traviskeating
+ Watch 1
+  Star 0
+  Fork 23 ggc-itec/bootstrap-practice
+ Code  Issues 1  Pull requests 3  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathbootstrap-practice/js/bootstrap.js
+fd8bdad  on Mar 15
+@tacksoo tacksoo init
+1 contributor
+RawBlameHistory     2364 lines (1781 sloc)  67.3 KB
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -2361,3 +2377,5 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help

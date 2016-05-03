@@ -3,25 +3,114 @@
 <head>
   
 <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/npm.js"></script>
 <style>
   .container {
     background-color:lightgray;
     margin-top:30px;
     padding-bottom:30px;
    }
+   
+   
 </style>
 <title>Bootstrap Practice</title>
 
 </head>
 
 <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">LeetCode OJ</a>
+    </div>
+    
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><font color="orange">LeetCode Premium Subscripion</font></a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            <font color="gray">Problems</font>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Dank Memes</a></li>
+            <li><a href="#">Dank Memes</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Pick One</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                     role="button" aria-expanded="false">
+            <font color="gray">Mock</font>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Mock a Person</a></li>
+            <li><a href="#">Mock an animal</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Discuss</a></li>
+        <li><a href="#"><font color="orange">Book</font></a></li>
+      </ul>
+      <div class="navbar-form navbar-right">
+        <a class="btn btn-primary" href="/accounts/signup">Sign up</a>
+        <a class="btn btn-default" href="/accounts/login/">Sign in</a>
+      </div>
+    </div>
 
+</nav>
 <div class="container">
-  <h1>Bootstrap Practice</h1>
-  <p>your life sucks</p>
-  <img src="images/coffee.gif" class="img-rounded"/>
+  <h1>LeetCode Online Judge</h1>
+  <p>We are supporting <font color="red">JavaScript</font> and <font color="red">Ruby</font> now!</p>
+  <p>
+    LeetCode OJ is a platform for preparing technical coding interviews. Pick from an expanding library
+  of more than <i>190</i> questions, code and submit your solution to see if you have solved it correctly. It is <i>that</i> easy!
+  </p>
+  <p>
+    Our platform currently supports a total of 9 languages: C, C++, Java, Python, C#, JavaScript, Ruby, Bash, MySQL
+  </p>
+  <p>
+    <font color="blue">Follow</font> or <font color="blue">Like LeetCode</font> and get the <font color="red">Latest Update</font>
+    with a new question added!
+  </p>
+  
+  <ul>
+    <li><font color="blue">Facebook</font></li>
+    <li><font color="blue">Twitter</font></li>
+    <li><font color="blue">Weibo</font></li>
+  </ul>
+  
+  <p><font color="blue">Code. Read. Discuss</font></p>
+  <br/>
+  <form role="form">
+  <div class="form-group">
+    <label for="email">Username:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <button type="submit" class="btn btn-default">Sign up for LeetCode OJ</button>
+</form>
+<hr>
+<p align="right">Or sign up with:</p>
+<div align="right"><img src="images/swanson.gif" width="100"></div>
 </div>
-   
+  
 </body>
 
 </html>
